@@ -72,7 +72,7 @@ $(document).ready(function ()
 		comites = data;
 
     console.log('-GET JSON COMITES-')
-    console.log(universidades)
+    console.log(comites)
 		});
 
 		$.getJSON("https://aiesec.cl/wp-content/plugins/oGE/data/universidades.json", function (data) {
