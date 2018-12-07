@@ -70,10 +70,15 @@ $(document).ready(function ()
     }); */
 	 $.getJSON("https://aiesec.cl/wp-content/plugins/oGE/data/comites.json",function (data) {
 		comites = data;
+
+    console.log('-GET JSON COMITES-')
+    console.log(universidades)
 		});
 
 		$.getJSON("https://aiesec.cl/wp-content/plugins/oGE/data/universidades.json", function (data) {
         universidades = data;
+        console.log('-GET JSON UNIVERSIDADES-')
+        console.log(universidades)
         setTimeout(function () {
             if (universidades !== undefined) {
                 loadciudades();
@@ -82,6 +87,8 @@ $(document).ready(function ()
 
 		$.getJSON("https://aiesec.pe/wp-content/plugins/oGE/data/carreras.json",function (data)
 			{
+        console.log('-GET JSON CARRERAS-')
+        console.log(universidades)
 			carreras = data;
 	    	});
 		setTimeout(function () {
