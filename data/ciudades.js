@@ -1,4 +1,4 @@
-[
+const ciudades = [
 {
 "id_ciudad": 1,
 "nombre_ciudad": "Arica y Parinacota"
@@ -64,3 +64,5 @@
 "nombre_ciudad": "Magallanes"
 }
 ]
+
+export default ciudades
