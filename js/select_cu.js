@@ -1,7 +1,7 @@
-var universidades;
-var ciudades;
-var comites;
-var carreras;
+import universidades from '../data/universidades'
+import ciudades from '../data/ciudades'
+import comites from '../data/comites'
+import carreras from '../data/carreras'
 
 var searchIntoJson = function (obj, column, value) {
     var results = [];
@@ -68,7 +68,7 @@ $(document).ready(function ()
    		/* $.getJSON("https://aiesec.cl/wp-content/plugins/oGE/data/ciudades.json",function (data) {
 			ciudades = data;
     }); */
-	 $.getJSON("https://aiesec.cl/wp-content/plugins/oGE/data/comites.json",function (data) {
+	 /*$.getJSON("https://aiesec.cl/wp-content/plugins/oGE/data/comites.json",function (data) {
 		comites = data;
 
     console.log('-GET JSON COMITES-')
@@ -85,7 +85,7 @@ $(document).ready(function ()
             }
         }, 2000);
 
-		$.getJSON("https://aiesec.pe/wp-content/plugins/oGE/data/carreras.json",function (data)
+		$.getJSON("https://aiesec.cl/wp-content/plugins/oGE/data/carreras.json",function (data)
 			{
         console.log('-GET JSON CARRERAS-')
         console.log(universidades)
@@ -95,7 +95,7 @@ $(document).ready(function ()
              loadCarreras();
         }, 2000);
 
-    });
+    });*/
 
     $("#ciudad").change(function () {
         var id_ciudad = $("#ciudad").val();
