@@ -56,6 +56,6 @@ function expa_form_oge( $atts ) {
     //var_dump( plugins_url('gis_reg_process.php', __FILE__ ));
     return $form;
 }
-add_shortcode( 'expa-form-oge', 'expa_form_oge' );
+add_shortcode( 'expa-form-ogv', 'expa_form_ogv' );
 
 ?>
