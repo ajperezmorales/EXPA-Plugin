@@ -164,20 +164,6 @@ $(document).ready(function(){
                 </td>
             </tr>
             <tr>
-                <td style="vertical-align: top;padding-top: 15px; width:30%;padding-left: 5%;text-align: right;" class="input-name">
-                    <h6 style="font-weight:normal; display:inline;font-style:inherit;">Experiencia Laboral</h6>
-                    <span class="required">*</span>
-                </td>
-                <td>
-                    <select id="experiencia" name="experiencia" title="{experiencia}" style="border:1px solid #037Ef3; width: 95%;">
-                        <option value="1" style="background-color: #fff;">Ninguna</option>
-                        <option value="2" style="background-color: #fff;">1 a 3 meses</option>
-                        <option value="3" style="background-color: #fff;">3 a 6 meses</option>
-                        <option value="4" style="background-color: #fff;">Mayor a 6 meses</option>
-                    </select>
-                </td>
-            </tr>
-            <tr>
                 <td style="vertical-align: top;padding-top: 15px; width:30%; padding-left: 5%;text-align: right;" class="input-name">
                     <h6 style="font-weight:normal; display:inline;font-style:inherit;">{interested_in} </h6>
                     <span class="required">*</span>
