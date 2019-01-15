@@ -1,4 +1,4 @@
-const ciudades = [
+[
 {
 "id_ciudad": 1,
 "nombre_ciudad": "Arica y Parinacota"
@@ -64,5 +64,3 @@ const ciudades = [
 "nombre_ciudad": "Magallanes"
 }
 ]
-
-export default ciudades
