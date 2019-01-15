@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: AIESEC EXPA Registration - oGE
+Plugin Name: AIESEC EXPA Registration - oGV 
 Description: Plugin based on gis_curl_registration script by Dan Laush upgraded to Wordpress plugin
 Version: 0.1
 Author: Krzysztof Jackowski
@@ -10,9 +10,9 @@ License: GPL
 wp_enqueue_script('jquery');
 defined( 'ABSPATH' ) or die( 'Plugin file cannot be accessed directly.' );
 
-// [expa-form program="ge"]
+// [expa-form program="gv"]
 
-function expa_form_oge( $atts ) {
+function expa_form_ogv( $atts ) {
     $a = shortcode_atts( array(
         'program' => '',
     ), $atts );
@@ -39,8 +39,8 @@ function expa_form_oge( $atts ) {
     $form = str_replace("{surname}",$configs["surname"],$form);
     $form = str_replace("{e-mail}",$configs["e-mail"],$form);
     $form = str_replace("{password}",$configs["password"],$form);
-    $form = str_replace("{lead-name}",$configs["ciudad"],$form);
-    $form = str_replace("{localcommittee}",$configs["lc"],$form);       
+    $form = str_replace("{lead-name}",$configs["lead-name"],$form);
+    $form = str_replace("{lc}",$configs["lc"],$form);       
     $form = str_replace("{phone}",$configs["phone"],$form);
     $form = str_replace("{source}",$configs["source"],$form);
     $form = str_replace("{interested_in}",$configs["interested_in"],$form);
