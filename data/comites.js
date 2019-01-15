@@ -1,4 +1,4 @@
-const comites = [
+[  
   {
     "id_podio": 1,
     "id_expa": 188,
@@ -30,4 +30,3 @@ const comites = [
     "nombre_comite": "MC Chile"
   }
 ]
-export default comites
