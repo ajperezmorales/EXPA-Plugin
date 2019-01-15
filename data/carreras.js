@@ -1,4 +1,4 @@
-const carreras = [
+[
  {
    "id_carrera": 1,
    "carrera": "Antropología"
@@ -112,5 +112,3 @@ const carreras = [
    "carrera": "Otros"
  }
 ]
-
-export default carreras
